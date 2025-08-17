@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BG Color Changer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+<body>
+  <div class="container">
+    <!-- Title -->
+    <h1 id="title">BG Color Changer</h1>
+
+    <!-- Input Section -->
+    <div class="input-section">
+      <input type="text" id="color-input" placeholder="Enter the color...">
+      <button id="change-btn" onclick="changeColor()">Change</button>
+    </div>
+
+    <!-- Color Buttons Section -->
+    <div id="buttons" class="button-panel">
+      <button class="color-btn red-btn" onclick="document.body.style.backgroundColor='red'">Red</button>
+      <button class="color-btn blue-btn" onclick="document.body.style.backgroundColor='blue'">Blue</button>
+      <button class="color-btn green-btn" onclick="document.body.style.backgroundColor='green'">Green</button>
+    </div>
+  </div>
+
+  <!-- External JS File -->
+  <script src="script.js"></script>
+</body>
+
+</html>
